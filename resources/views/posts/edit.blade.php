@@ -31,7 +31,7 @@
                     <div class="form-group">
                         <label for="title">Title</label>
                         <input type="text" class="form-control" id="title" name="title"
-                            value="{{ $post->title }}" required>
+                            value="{{ $post->title }}" required><!--ini ada hubungannya dengan yg di controller update-->
                     </div>
                     <div class="form-group">
                         <label for="body">Body</label>
